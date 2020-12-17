@@ -1,0 +1,20 @@
+/* Colors */
+.bg_primaryColor {
+    background-color: #3297C3;
+    color: #e6e6e6;
+}
+
+.bg_primaryColorDark {
+    background-color: #2E5077;
+    color: #e6e6e6;
+}
+
+.bg_secondaryColor {
+    background-color: #B52626;
+    color: #e6e6e6;
+}
+
+.bg_secondaryColorDark {
+    background-color: #63171A;
+    color: #e6e6e6;
+}
