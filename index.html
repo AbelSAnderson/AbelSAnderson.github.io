@@ -44,7 +44,7 @@
                         <h2 class="text-white mb-4">Hey, I'm Abel</h2>
                         <p class="text-white-50">
                             I'm a student studing mobile application development at St. Clair College. I enjoy working with C#, builing apps for iOS and Android, utilizing Kotlin & Swift.
-                            I've also recently started exploring some server-side languages like Express js and Angular.
+                            I've also recently started exploring some server-side and cross-platform languages like Express js and Angular.
                         </p>
                     </div>
                 </div>
@@ -57,19 +57,54 @@
                 <div class="text-center">
                     <h2 class="text-black mb-4">Projects</h2>
                 </div>
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-5 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/design_materials.png" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Design Materials</h4>
-                            <p class="text-black-50 mb-0">A second year project I made to show off my android skills. This app was designed to htlp designers choose styles for their application.</p>
-                            <br>
-                            <p class="text-black-50 mb-0">This was created in android studio, with Java as the primary language.</p>
+                <!-- Slideshow -->
+                <div>
+                    <div class="row align-items-center p-5 mb-4 mb-lg-5 projectSlide bg-black bg-gradient rounded">
+                        <div class="col-xl-2 col-lg-2"></div>
+                        <div class="col-xl-4 col-lg-5 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/Medify_Home.png" alt="Home Screen of Medify" /></div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="text-center text-white">
+                                <h4>Medify</h4>
+                                <p class="text-white-50 mb-0">A medication tracking application I made for a client as my final capstone project at St. Clair College.</p>
+                                <br>
+                                <p class="text-white-50 mb-0"></p>
+                            </div>
                         </div>
                     </div>
+                    <!-- Medify -->
+                    <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5 projectSlide">
+                        <div class="col-xl-2 col-lg-2"></div>
+                        <div class="col-xl-5 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Medify_Home.png" alt="Home Screen of Medify" /></div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Medify</h4>
+                                <p class="text-black-50 mb-0">A medication tracking application I made for a client as my final capstone project at St. Clair College.</p>
+                                <br>
+                                <p class="text-black-50 mb-0"></p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Design Materials -->
+                    <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5 projectSlide">
+                        <div class="col-xl-2 col-lg-2"></div>
+                        <div class="col-xl-5 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/design_materials.png" alt="" /></div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Design Materials</h4>
+                                <p class="text-black-50 mb-0">A second year project I made to show off my android skills. This app was designed to help designers choose styles for their application.</p>
+                                <br>
+                                <p class="text-black-50 mb-0">This was created in android studio, with Java as the primary language.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <!-- <span class="dot" onclick="currentSlide(3)"></span>  -->
             </div>
         </section>
         <!-- Contact-->
