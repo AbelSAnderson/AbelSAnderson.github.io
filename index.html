@@ -7,15 +7,18 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Abel Anderson</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core theme CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/portfolioStyles.css" rel="stylesheet" />
     </head>
 
     <body id="page-top">
@@ -31,24 +34,21 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Hey, I'm Abel</h2>
-                        <p class="text-white-50">
-                            I'm a student studing mobile application development at St. Clair College. I enjoy working with C#, builing apps for iOS and Android, utilizing Kotlin & Swift.
-                            I've also recently started exploring some server-side and cross-platform languages like Express js and Angular.
-                        </p>
-                    </div>
+        <section class="masthead" id="about">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto text-white mb-4">Hey, I'm Abel</h2>
+                    <h4 class="text-white-50">
+                        I just graduated from studing mobile application development at St. Clair College. I enjoy working with C#, builing apps for iOS and Android, and using Kotlin & Swift.
+                        I've also recently started exploring some server-side and cross-platform languages like Express js and Angular.
+                    </h4>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="" />
             </div>
         </section>
         <!-- Projects-->
@@ -57,31 +57,58 @@
                 <div class="text-center">
                     <h2 class="text-black mb-4">Projects</h2>
                 </div>
-                <!-- Slideshow -->
                 <!-- Medify -->
                 <div class="row align-items-center p-5 mb-4 mb-lg-5 projectSlide bg-black bg-gradient rounded">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-4 col-lg-5 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/Medify_Home.png" alt="Home Screen of Medify" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="text-center text-white">
-                            <h4>Medify</h4>
-                            <p class="text-white-50 mb-0">A medication tracking application I made for a client as my final capstone project at St. Clair College.</p>
-                            <br>
-                            <p class="text-white-50 mb-0"></p>
-                        </div>
+                    <div class="col-xl-2 col-lg-1"></div>
+                    <div class="col-xl-4 col-lg-4 mb-4 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/MedifyHome.png" alt="Home Screen of Medify" /></div>
+                    <div class="col-xl-5 col-lg-7 text-center text-white-50 mt-10">
+                        <h4>Medify</h4>
+                        <p class="">A medication tracking application I made for a client as my final capstone project at St. Clair College.</p>
+                        <p class="mb-4">It won 2nd place out of 40 entries at the St. Clair Ford Capstone Competition, as well as the Technological Excellence award.</p>
+                        <p>Technologies Used:</p>
+                        <ul class="text-left pl-5" >
+                            <li>Laravel/Lumen</li>
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- MurderMansion -->
+                <div class="row align-items-center p-5 mb-4 mb-lg-5 projectSlide bg-black bg-gradient rounded">
+                    <h4 class="col-lg-12 text-center text-white">Murder Mansion</h4>
+                    <div class="col-xl-1 col-lg-1"></div>
+                    <div class="col-xl-10 col-lg-10 mb-5 mt-4 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/MurderMansion.png" alt="Home Screen of Medify" /></div>
+                    <div class="col-xl-1 col-lg-1"></div>
+                    <div class="col-xl-1 col-lg-1"></div>
+                    <div class="col-xl-5 col-lg-4 text-center text-white-50">
+                        <p class="mb-10">A Clue Parody I made with two friends in my first year of college and was made entirely in Java & JavaFX.</p>
+                        <p class="mb-10">It has all the features of Clue, including character selection, a tile-based movement system, and a full suite of stylized graphics.</p>
+                    </div>
+                    <div class="col-xl-5 col-lg-7 text-center text-white-50">
+                        <p>Technologies Used:</p>
+                        <ul class="text-left pl-5" >
+                            <li>Java</li>
+                            <li>JavaFX</li>
+                        </ul>
+                        <a class="btn" href="https://github.com/AbelSAnderson/MurderMansion" target="_blank">
+                            <span class="fab fa-github text-white w-15 h-15"></span>
+                        </a> 
                     </div>
                 </div>
                 <!-- Design Materials -->
                 <div class="row align-items-center p-5 mb-4 mb-lg-5 projectSlide bg-black bg-gradient rounded">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-4 col-lg-5 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/design_materials.png" alt="Home Screen of Medify" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="text-center text-white">
-                            <h4>Design Materials</h4>
-                            <p class="text-white-50 mb-0">A second year project I made to show off my android skills. This app was designed to help designers choose styles for their application.</p>
-                            <br>
-                            <p class="text-white-50 mb-0">This was created in android studio, with Java as the primary language.</p>
-                        </div>
+                    <div class="col-xl-3 col-lg-1"></div>
+                    <div class="col-xl-3 col-lg-4 mb-4 p-0 border border-3 border-white rounded"><img class="img-fluid" src="assets/img/DesignMaterials.png" alt="Home Screen of Medify" /></div>
+                    <div class="col-xl-4 col-lg-7 text-center text-white-50">
+                        <h4>Design Materials</h4>
+                        <p class="mb-10">A second year project I made to show off my android skills. This app was designed to help UI designers choose styles for their application.</p>
+                        <p>Technologies Used:</p>
+                        <ul class="text-left pl-5" >
+                            <li>Java</li>
+                            <li>Android Studio</li>
+                        </ul>
+                        <a class="btn" href="https://github.com/AbelSAnderson/DesignMaterials" target="_blank">
+                            <span class="fab fa-github text-white w-15 h-15"></span>
+                        </a>
                     </div>
                 </div>
                 <a class="prev position-absolute top-50 start-0" onclick="plusSlides(-1)">&#10094;</a>
@@ -90,11 +117,11 @@
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
-                <!-- <span class="dot" onclick="currentSlide(3)"></span>  -->
+                <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black" id="signup">
+        <section class="contact-section bg-black" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
