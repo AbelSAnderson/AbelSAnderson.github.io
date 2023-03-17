@@ -8327,7 +8327,7 @@ Jz:function Jz(){},
 Qi(){var s=0,r=A.J(t.H),q
 var $async$Qi=A.K(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:s=2
-return A.B($.B6().tW(0,".env"),$async$Qi)
+return A.B($.B6().tW(0,"env"),$async$Qi)
 case 2:if($.ao==null)A.alA()
 q=$.ao
 q.Nm(B.BJ)
