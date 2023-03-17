@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <p>AUTHORIZING</p>
+    <script type="text/javascript">
+        if(window.opener) {
+            window.opener.postMessage('?' + window.location.href.split('?')[1], "*");
+        } else {
+            window.close();
+        }
+    </script>
+</body>
+</html>
